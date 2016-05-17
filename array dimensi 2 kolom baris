@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+	int angka [2][2];
+	char abjad [10][15];
+	int baris;
+	int kolom;
+	
+	for (baris =0; baris <=2; baris++) {
+		for (kolom =0; kolom <=2; kolom++){
+			cout<< "Angka ["<<baris<<"] ["<<kolom<<"] = ";
+		cin>> angka[baris][kolom];
+		}
+
+	system ("pause");
+}
